@@ -1,3 +1,21 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+table, td, th{
+    border: gray 3px solid;
+}
+
+th{
+    color: white;
+    background-color: purple;
+}
+
+tr{
+    text-align: middle;
+    margin: 20px;
+}
+
+td{
+    padding: 12px 15px;
+}

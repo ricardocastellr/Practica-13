@@ -1,9 +1,9 @@
 <html lang="es">
     <body>
         <h2>Hola desde el EJS</h2>
-        <% if(numero %2==0){ %>
+        <% if(numero %2==0 && numero > 0){ %>
             <h1>El número <%= numero %> es PAR.</h1>
-          <% } else if(numero %2==1){ %>  
+          <% } else if(numero %2==1 && numero > 0){ %>  
             <h1>El número <%= numero %> es IMPAR.</h1>
          <% } else if(numero < 0){ %>  
             <h1>El número <%= numero %> es menor a 0, ingrese un número igual o mayor a 0.</h1>
