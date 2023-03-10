@@ -1,0 +1,18 @@
+<html lang="es">
+    <body>
+        <h2>Hola desde el EJS</h2>
+        <% if(numero %2==0){ %>
+            <h1>El número <%= numero %> es PAR.</h1>
+          <% } else if(numero %2==1){ %>  
+            <h1>El número <%= numero %> es IMPAR.</h1>
+         <% } else{ %>
+            <h1>Ingrese un número por favor.</h1> 
+         <% } %>
+         <ul>
+            <% for(let i=0; i < numero; i++) { %>
+                 <li><%= i+1 %></li>
+            <% } %>
+            </ul>
+            
+    </body>
+</html>
